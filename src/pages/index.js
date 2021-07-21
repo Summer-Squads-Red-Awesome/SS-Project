@@ -6,22 +6,22 @@ export default function Home() {
   return (
     <div className="homescreen">
       <div className="link-container">
-        <Link classname="home-link" to="/trash">
+        <Link className="home-link" to="/trash">
           Trash
         </Link>
       </div>
       <div className="link-container">
-        <Link classname="home-link" to="/water">
+        <Link className="home-link" to="/water">
           Water
         </Link>
       </div>
       <div className="link-container">
-        <Link classname="home-link" to="/fuel">
+        <Link className="home-link" to="/fuel">
           Fuel
         </Link>
       </div>
       <div className="link-container">
-        <Link classname="home-link" to="/food">
+        <Link className="home-link" to="/food">
           Food
         </Link>
       </div>
