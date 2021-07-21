@@ -1,13 +1,18 @@
+body {
+  margin: 0;
+  justify-content: center;
+}
 .homescreen {
   text-align: center;
   display: grid;
+  flex: 1 0;
   grid-template-columns: auto auto;
   grid-row: auto auto;
-  grid-column-gap: 20px;
-  grid-row-gap: 20px;
+  grid-column-gap: 10%;
+  grid-row-gap: 10%;
   margin: auto auto;
-  width: 25%;
-  height: 25%;
+  width: 75%;
+  height: auto;
 }
 
 .link-container {
@@ -21,6 +26,7 @@
 }
 
 .home-link {
+  flex: 1 0 auto;
   color: black;
   font-family: cursive;
   text-decoration: none;
