@@ -10,21 +10,10 @@ export default function commute() {
       <div className="commute-container">
         <h2>The Daily Commute</h2>
         <div className="commute-img-carousel-container">
-          <Carousel
-            plugins={[
-              "clickToChange",
-              "centered",
-              {
-                resolve: slidesToShowPlugin,
-                options: {
-                  numberOfSlides: 3,
-                },
-              },
-            ]}
-          >
-            <img src="img1.png" />
-            <img src="img2.png" />
-            <img src="img3.png" />
+          <Carousel plugins={["arrows"]}>
+            <img src="img1.png" class="carousel-img" />
+            <img src="img2.png" class="carousel-img" />
+            <img src="img3.png" class="carousel-img" />
           </Carousel>
         </div>
       </div>

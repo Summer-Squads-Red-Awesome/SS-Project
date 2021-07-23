@@ -8,6 +8,13 @@ export default function lights() {
     <Layout>
       <div className="lights-container">
         <h2>All the Lights</h2>
+        <div className="lights-img-carousel-container">
+          <Carousel plugins={["arrows"]}>
+            <img src="img1.png" class="carousel-img" />
+            <img src="img2.png" class="carousel-img" />
+            <img src="img3.png" class="carousel-img" />
+          </Carousel>
+        </div>
       </div>
     </Layout>
   )
