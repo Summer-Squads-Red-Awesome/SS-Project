@@ -8,7 +8,7 @@ export default function trash() {
   return (
     <Layout>
       <div className="trash-container">
-        <h2>trash</h2>
+        <h2>Wait, How Much Trash?</h2>
         <div className="trash-img-carousel-container">
           <Carousel plugins={["arrows"]}>
             <img src="img1.png" class="carousel-img" />

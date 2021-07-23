@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function water() {
+export default function diet() {
   return (
     <div>
-      <h2>water</h2>
+      <h2>A Carnivore Diet</h2>
     </div>
   )
 }
