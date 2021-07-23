@@ -2,7 +2,7 @@ import React from "react";
 import Carousel from "@brainhubeu/react-carousel";
 import Layout from "../components/Layout";
 import '@brainhubeu/react-carousel/lib/style.css';
-import * as styles from "../styles/images.css";
+import "../styles/images.css";
 
 export default function trash() {
   return (
