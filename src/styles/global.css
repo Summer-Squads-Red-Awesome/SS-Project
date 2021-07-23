@@ -49,4 +49,10 @@ nav {
 .nav-link {
   display: flex;
   margin-left: 50px;
+  text-decoration: none;
+  color: white;
+}
+
+#ecoviz {
+  font-weight: bold;
 }
