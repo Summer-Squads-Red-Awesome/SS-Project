@@ -11,9 +11,9 @@ export default function trash() {
         <h2>Wait, How Much Trash?</h2>
         <div className="trash-img-carousel-container">
           <Carousel plugins={["arrows"]}>
-            <img src="img1.png" class="carousel-img" />
-            <img src="img2.png" class="carousel-img" />
-            <img src="img3.png" class="carousel-img" />
+            <img src="img1.png" class="carousel-img" alt="" />
+            <img src="img2.png" class="carousel-img" alt="" />
+            <img src="img3.png" class="carousel-img" alt="" />
           </Carousel>
         </div>
       </div>
