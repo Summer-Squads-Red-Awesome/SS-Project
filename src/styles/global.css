@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Selima';
+    src: local('Selima'), url(../fonts/selima_.ttf) format('truetype');
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -112,4 +117,6 @@ nav {
 
 #ecoviz {
   font-weight: bold;
+  font-family: Selima, sans-serif;
+  font-size: 48px;
 }
