@@ -25,15 +25,23 @@ footer {
 }
 
 .homescreen {
-  /* padding: 10px; */
-  /* height: 100vh; */
+  text-align: center;
+}
+
+.home-blurb {
+  font-size: 24px;
+  margin: 24px;
+  padding: 10px;
+  height: 48px;
+  line-height: 48px;
+  vertical-align: middle;
 }
 
 .grid-container {
   display: grid;
   justify-items: center;
   grid-template-columns: 1fr 1fr;
-  margin: 96px 190px 0px 190px;
+  margin: 20px 190px 0px 190px;
 }
 
 /* .homescreen {
