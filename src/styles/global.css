@@ -22,7 +22,9 @@ content {
 }
 
 footer {
-  bottom: 0;
+  bottom: 5px;
+  left: 50px;
+  position: fixed;
 }
 
 .layout {
@@ -37,6 +39,7 @@ footer {
   font-size: 26px;
   font-family: Libre Franklin, sans-serif;
   font-weight: bold;
+  color: #6d6d6d;
   margin: 24px;
   padding: 10px;
   height: 48px;
@@ -47,6 +50,7 @@ footer {
 .grid-container {
   display: grid;
   justify-items: center;
+  grid-column-gap: 8%;
   grid-template-columns: 1fr 1fr;
   margin: 20px 190px 0px 190px;
 }
@@ -78,7 +82,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 366px;
+  width: auto;
   background-color: #ffff;
   margin-bottom: 88px;
 }
@@ -86,14 +90,19 @@ footer {
 .home-link {
   flex: 1 0 auto;
   color: black;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Libre Franklin, sans-serif;
+  font-size: 16px;
+  font-weight: semi-bold;
+  color: #6d6d6d;
 }
+
 a {
   text-decoration: none;
 }
 
 .cover-image {
   width: 100%;
+  border-radius: 10px;
 }
 
 nav {
