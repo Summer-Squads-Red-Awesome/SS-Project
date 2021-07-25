@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Selima';
+    src: local('Selima'), url(../fonts/selima_.ttf) format('truetype');
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -25,15 +30,25 @@ footer {
 }
 
 .homescreen {
-  /* padding: 10px; */
-  /* height: 100vh; */
+  text-align: center;
+}
+
+.home-blurb {
+  font-size: 26px;
+  font-family: Libre Franklin, sans-serif;
+  font-weight: bold;
+  margin: 24px;
+  padding: 10px;
+  height: 48px;
+  line-height: 48px;
+  vertical-align: middle;
 }
 
 .grid-container {
   display: grid;
   justify-items: center;
   grid-template-columns: 1fr 1fr;
-  margin: 96px 190px 0px 190px;
+  margin: 20px 190px 0px 190px;
 }
 
 /* .homescreen {
@@ -82,7 +97,8 @@ a {
 }
 
 nav {
-  background-color: #7C7C7C;
+  background-color: #1B5E45;
+;
   /* width: 100vw; */
   height: 56px;
   display: flex;
@@ -100,8 +116,13 @@ nav {
   margin-left: 50px;
   text-decoration: none;
   color: white;
+  font-family: Libre Franklin, sans-serif;
+  font-weight: semi-bold;
+  font-size: 16px;
 }
 
 #ecoviz {
   font-weight: bold;
+  font-family: Selima, sans-serif;
+  font-size: 48px;
 }

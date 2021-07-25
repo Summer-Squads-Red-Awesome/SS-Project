@@ -7,6 +7,7 @@ export default function Home() {
   return (
     <Layout>
       <div className="homescreen">
+        <div className="home-blurb">VISUALIZE THE IMPACT OF YOUR DAILY HABITS</div>
         <div className="grid-container">
           <div className="link-container">
           <Link className="home-link-container" to="/commute">

@@ -6,5 +6,19 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [],
+  siteMetadata: {
+    title: 'EcoViz'
+  },
+  plugins: [
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Libre Franklin`,
+          `source sans pro\:600, 700` // you can also specify font weights and styles
+        ],
+        display: 'swap'
+      }
+    }
+  ],
 }

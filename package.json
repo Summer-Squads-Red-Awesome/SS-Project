@@ -16,6 +16,7 @@
   "dependencies": {
     "@brainhubeu/react-carousel": "^2.0.4",
     "gatsby": "^3.9.1",
+    "gatsby-plugin-google-fonts": "^1.0.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   },
