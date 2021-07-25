@@ -8,23 +8,23 @@ export default function Home() {
     <Layout>
       <div className="homescreen">
         <div className="link-container">
+          <Link classname="home-link" to="/commute">
+            The Daily Commute
+          </Link>
+        </div>
+        <div className="link-container">
           <Link classname="home-link" to="/trash">
-            Trash
+            Wait, How Much Trash?
           </Link>
         </div>
         <div className="link-container">
-          <Link classname="home-link" to="/water">
-            Water
+          <Link classname="home-link" to="/diet">
+            A Carnivore Diet
           </Link>
         </div>
         <div className="link-container">
-          <Link classname="home-link" to="/fuel">
-            Fuel
-          </Link>
-        </div>
-        <div className="link-container">
-          <Link classname="home-link" to="/food">
-            Food
+          <Link classname="home-link" to="/lights">
+            All the Lights
           </Link>
         </div>
       </div>

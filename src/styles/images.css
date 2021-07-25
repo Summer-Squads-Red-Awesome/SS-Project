@@ -2,6 +2,14 @@
   max-height: 500px;
 }
 
-.food-img-carousel-container img {
+.commute-img-carousel-container img {
+  max-height: 500px;
+}
+
+.diet-img-carousel-container img {
+  max-height: 500px;
+}
+
+.lights-img-carousel-container img {
   max-height: 500px;
 }

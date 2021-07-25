@@ -31,3 +31,28 @@ body {
   font-family: cursive;
   text-decoration: none;
 }
+
+nav {
+  background-color: #7C7C7C;
+  width: 100vw;
+  height: 56px;
+  display: flex;
+}
+
+.nav-links-container {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  justify-content: flex-start;
+}
+
+.nav-link {
+  display: flex;
+  margin-left: 50px;
+  text-decoration: none;
+  color: white;
+}
+
+#ecoviz {
+  font-weight: bold;
+}
