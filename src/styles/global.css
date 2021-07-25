@@ -87,6 +87,8 @@ footer {
   flex: 1 0 auto;
   color: black;
   font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  padding-left: 5px;
 }
 a {
   text-decoration: none;
