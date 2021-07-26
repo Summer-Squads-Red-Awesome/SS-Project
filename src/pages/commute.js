@@ -25,6 +25,7 @@ const responsive = {
   },
 }
 const images = [
+  "/transportation/images/img0.jpg",
   "/transportation/images/img1.jpg",
   "/transportation/images/img2.jpg",
   "/transportation/images/img3.jpg",
@@ -56,6 +57,7 @@ export default function commute({ deviceType }) {
                     width: "auto",
                     height: "auto",
                     textAlign: "center",
+                    marginLeft: "2rem",
                   }}
                   src={image}
                 />

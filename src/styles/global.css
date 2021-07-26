@@ -16,6 +16,8 @@ body {
   margin: 0;
   padding: 0;
   justify-content: center;
+  overflow-x: hidden;
+  font-family: Libre Franklin, sans-serif;
 }
 
 content {
@@ -34,7 +36,7 @@ content {
 }
 
 .home-blurb {
-  font-size: 26px;
+  font-size: 1.5em;
   font-family: Libre Franklin, sans-serif;
   font-weight: bold;
   margin: 24px;
@@ -126,4 +128,20 @@ a {
 
 h3 {
   text-align: center;
+  font-size: 1.5em;
+}
+
+@media screen and (max-width: 600px) {
+  .grid-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .link-container {
+    width: 80%;
+    margin: 1rem auto;
+  }
 }
