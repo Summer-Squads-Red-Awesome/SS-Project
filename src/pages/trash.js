@@ -1,6 +1,7 @@
 import React from "react"
 import Layout from "../components/Layout"
 import "../styles/images.css"
+import "../styles/pages.css"
 
 import Carousel from "react-multi-carousel"
 import "react-multi-carousel/lib/styles.css"
@@ -34,7 +35,7 @@ const images = [
 export default function trash({ deviceType }) {
   return (
     <Layout>
-      <div className="trash-container">
+      <div className="container">
         <h2>Wait, How Much Trash?</h2>
         <div className="diet-img-carousel-container">
           <Carousel

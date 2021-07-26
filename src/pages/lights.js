@@ -1,6 +1,7 @@
 import React from "react"
 
 import Layout from "../components/Layout"
+import "../styles/pages.css"
 
 import Carousel from "react-multi-carousel"
 import "react-multi-carousel/lib/styles.css"
@@ -34,7 +35,7 @@ const images = [
 export default function lights({ deviceType }) {
   return (
     <Layout>
-      <div className="lights-container">
+      <div className="container">
         <h2>All the Lights</h2>
         <div className="diet-img-carousel-container">
           <Carousel

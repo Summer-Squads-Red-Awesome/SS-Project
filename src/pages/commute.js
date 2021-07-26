@@ -2,6 +2,7 @@ import React from "react"
 import Layout from "../components/Layout"
 
 import "../styles/images.css"
+import "../styles/pages.css"
 
 import Carousel from "react-multi-carousel"
 import "react-multi-carousel/lib/styles.css"
@@ -35,7 +36,7 @@ const images = [
 export default function commute({ deviceType }) {
   return (
     <Layout>
-      <div className="commute-container">
+      <div className="container">
         <h2>The Daily Commute</h2>
         <div className="diet-img-carousel-container">
           <Carousel

@@ -1,0 +1,5 @@
+footer {
+  position: bottom;
+  background-color: var(--main);
+  min-height: 15vh;
+}

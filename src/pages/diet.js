@@ -1,6 +1,7 @@
 import React from "react"
 import Layout from "../components/Layout"
 import "../styles/images.css"
+import "../styles/pages.css"
 
 import Carousel from "react-multi-carousel"
 import "react-multi-carousel/lib/styles.css"
@@ -34,8 +35,9 @@ const images = [
 export default function diet({ deviceType }) {
   return (
     <Layout>
-      <div className="diet-container">
+      <div className="container">
         <h2>A Carnivore Diet</h2>
+
         <div className="diet-img-carousel-container">
           <Carousel
             ssr
