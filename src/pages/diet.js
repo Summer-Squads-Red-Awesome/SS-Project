@@ -49,10 +49,10 @@ export default function diet({ deviceType }) {
                 <img
                   draggable={true}
                   style={{
-                    width: "100%",
-                    height: "100%",
-                    margin: "1rem",
-                    paddding: "1rem",
+                    width: "auto",
+                    height: "auto",
+                    marginLeft: "10rem",
+                    textAlign: "center",
                   }}
                   src={image}
                 />
