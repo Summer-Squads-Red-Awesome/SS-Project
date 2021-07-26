@@ -42,16 +42,16 @@ export default function Home() {
               <div className="home-link">A Carnivore Diet</div>
             </Link>
           </div>
-          <div className="link-container">
+          {/* <div className="link-container">
             <Link className="home-link-container" to="/lights">
               <img
                 src="lights-cover.jpg"
                 alt="All the lights"
-                className="cover-image"
+                clas sName="cover-image"
               />
               <div className="home-link">All the Lights</div>
             </Link>
-          </div>
+          </div> */}
         </div>
       </div>
     </Layout>

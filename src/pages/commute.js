@@ -25,12 +25,10 @@ const responsive = {
   },
 }
 const images = [
-  "img1.png",
-  "img2.png",
-  "img3.png",
-  "img1.png",
-  "img2.png",
-  "img3.png",
+  "/transportation/images/img1.jpg",
+  "/transportation/images/img2.jpg",
+  "/transportation/images/img3.jpg",
+  "/transportation/images/img4.jpg",
 ]
 
 export default function commute({ deviceType }) {
@@ -38,6 +36,10 @@ export default function commute({ deviceType }) {
     <Layout>
       <div className="container">
         <h2>The Daily Commute</h2>
+        <h3>
+          How much gas would you save per day if you carpooled with one person
+          everyday?
+        </h3>
         <div className="diet-img-carousel-container">
           <Carousel
             ssr
@@ -53,7 +55,6 @@ export default function commute({ deviceType }) {
                   style={{
                     width: "auto",
                     height: "auto",
-                    marginLeft: "10rem",
                     textAlign: "center",
                   }}
                   src={image}

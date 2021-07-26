@@ -45,10 +45,10 @@ content {
 }
 
 .grid-container {
-  display: grid;
-  justify-items: center;
-  grid-template-columns: 1fr 1fr;
-  margin: 20px 190px 0px 190px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
 /* .homescreen {
@@ -78,9 +78,9 @@ content {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 366px;
+  width: 35%;
   background-color: #ffff;
-  margin-bottom: 88px;
+  margin: 1rem;
 }
 
 .home-link {
@@ -102,7 +102,7 @@ a {
 }
 
 .link-container a:hover {
-  transform: scale(1.05);
+  transform: scale(1.02);
 }
 
 .cover-image {
@@ -122,4 +122,8 @@ a {
   font-weight: bold;
   font-family: Selima, sans-serif;
   font-size: 48px;
+}
+
+h3 {
+  text-align: center;
 }
