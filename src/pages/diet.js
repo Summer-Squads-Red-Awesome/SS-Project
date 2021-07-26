@@ -24,12 +24,11 @@ const responsive = {
   },
 }
 const images = [
-  "img1.png",
-  "img2.png",
-  "img3.png",
-  "img1.png",
-  "img2.png",
-  "img3.png",
+  "/carnivore/images/img1.png",
+  "/carnivore/images/img2.png",
+  "/carnivore/images/img3.png",
+  "/carnivore/images/img4.png",
+  "/carnivore/images/img5.png",
 ]
 
 export default function diet({ deviceType }) {

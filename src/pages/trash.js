@@ -29,7 +29,6 @@ const images = [
   "/trash/images/img2.jpg",
   "/trash/images/img3.jpg",
   "/trash/images/img4.jpg",
-  "/trash/images/img5.jpg",
 ]
 
 export default function trash({ deviceType }) {
