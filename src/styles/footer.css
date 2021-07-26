@@ -1,5 +1,11 @@
 footer {
   position: bottom;
   background-color: var(--main);
-  min-height: 15vh;
+  min-height: 12vh;
+  text-align: center;
+}
+
+footer p {
+  padding-top: 1rem;
+  color: white;
 }
