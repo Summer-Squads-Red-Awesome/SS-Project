@@ -1,19 +1,63 @@
-import React from "react";
-import Carousel from "@brainhubeu/react-carousel";
-import Layout from "../components/Layout";
-import "@brainhubeu/react-carousel/lib/style.css";
+import React from "react"
+import Layout from "../components/Layout"
 import "../styles/images.css"
 
-export default function diet() {
+import Carousel from "react-multi-carousel"
+import "react-multi-carousel/lib/styles.css"
+
+const responsive = {
+  desktop: {
+    breakpoint: { max: 3000, min: 1024 },
+    items: 1,
+    paritialVisibilityGutter: 60,
+  },
+  tablet: {
+    breakpoint: { max: 1024, min: 464 },
+    items: 1,
+    paritialVisibilityGutter: 50,
+  },
+  mobile: {
+    breakpoint: { max: 464, min: 0 },
+    items: 1,
+    paritialVisibilityGutter: 30,
+  },
+}
+const images = [
+  "img1.png",
+  "img2.png",
+  "img3.png",
+  "img1.png",
+  "img2.png",
+  "img3.png",
+]
+
+export default function diet({ deviceType }) {
   return (
     <Layout>
       <div className="diet-container">
         <h2>A Carnivore Diet</h2>
         <div className="diet-img-carousel-container">
-          <Carousel plugins={["arrows"]}>
-            <img src="img1.png" className="carousel-img" alt="" />
-            <img src="img2.png" className="carousel-img" alt="" />
-            <img src="img3.png" className="carousel-img" alt="" />
+          <Carousel
+            ssr
+            partialVisbile
+            deviceType={deviceType}
+            itemClass="image-item"
+            responsive={responsive}
+          >
+            {images.slice(0, 5).map(image => {
+              return (
+                <img
+                  draggable={true}
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    margin: "1rem",
+                    paddding: "1rem",
+                  }}
+                  src={image}
+                />
+              )
+            })}
           </Carousel>
         </div>
       </div>

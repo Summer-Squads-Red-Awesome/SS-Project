@@ -8,8 +8,18 @@
 
 .diet-img-carousel-container img {
   max-height: 500px;
+  min-width: 500px;
+}
+
+.diet-img-carousel-container div {
+  margin: 1rem;
 }
 
 .lights-img-carousel-container img {
   max-height: 500px;
+}
+
+.diet-img-carousel-container {
+  max-width: 1000px;
+  margin: auto;
 }

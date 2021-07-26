@@ -1,18 +1,63 @@
-import React from "react";
-import Carousel from "@brainhubeu/react-carousel";
-import Layout from "../components/Layout";
-import "@brainhubeu/react-carousel/lib/style.css";
+import React from "react"
 
-export default function lights() {
+import Layout from "../components/Layout"
+
+import Carousel from "react-multi-carousel"
+import "react-multi-carousel/lib/styles.css"
+
+const responsive = {
+  desktop: {
+    breakpoint: { max: 3000, min: 1024 },
+    items: 1,
+    paritialVisibilityGutter: 60,
+  },
+  tablet: {
+    breakpoint: { max: 1024, min: 464 },
+    items: 1,
+    paritialVisibilityGutter: 50,
+  },
+  mobile: {
+    breakpoint: { max: 464, min: 0 },
+    items: 1,
+    paritialVisibilityGutter: 30,
+  },
+}
+const images = [
+  "img1.png",
+  "img2.png",
+  "img3.png",
+  "img1.png",
+  "img2.png",
+  "img3.png",
+]
+
+export default function lights({ deviceType }) {
   return (
     <Layout>
       <div className="lights-container">
         <h2>All the Lights</h2>
-        <div className="lights-img-carousel-container">
-          <Carousel plugins={["arrows"]}>
-            <img src="img1.png" className="carousel-img" alt="" />
-            <img src="img2.png" className="carousel-img" alt="" />
-            <img src="img3.png" className="carousel-img" alt="" />
+        <div className="diet-img-carousel-container">
+          <Carousel
+            ssr
+            partialVisbile
+            deviceType={deviceType}
+            itemClass="image-item"
+            responsive={responsive}
+          >
+            {images.slice(0, 5).map(image => {
+              return (
+                <img
+                  draggable={true}
+                  style={{
+                    width: "auto",
+                    height: "auto",
+                    marginLeft: "10rem",
+                    textAlign: "center",
+                  }}
+                  src={image}
+                />
+              )
+            })}
           </Carousel>
         </div>
       </div>
