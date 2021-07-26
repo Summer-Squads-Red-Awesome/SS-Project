@@ -24,12 +24,12 @@ const responsive = {
   },
 }
 const images = [
-  "img1.png",
-  "img2.png",
-  "img3.png",
-  "img1.png",
-  "img2.png",
-  "img3.png",
+  "/trash/images/img0.jpg",
+  "/trash/images/img1.jpg",
+  "/trash/images/img2.jpg",
+  "/trash/images/img3.jpg",
+  "/trash/images/img4.jpg",
+  "/trash/images/img5.jpg",
 ]
 
 export default function trash({ deviceType }) {
@@ -52,7 +52,7 @@ export default function trash({ deviceType }) {
                   style={{
                     width: "auto",
                     height: "auto",
-                    marginLeft: "10rem",
+                    margin: "auto",
                     textAlign: "center",
                   }}
                   src={image}
